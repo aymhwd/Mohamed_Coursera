@@ -104,4 +104,14 @@ void sort_array(unsigned char *data_array, unsigned int range);
  * @return this function has no return value
  */
 
+void swap(unsigned char *xp, unsigned char *yp);
+/**
+ * @brief swaps positions of two character variables
+ * via pass by reference, this function swaps the positions of two character variables
+ * @param *xp: pointer to the first character variable
+ * @param *yp: pointer to the second character variable
+ * 
+ * @return this function has no return value
+ */
+
 #endif /* __STATS_H__ */
